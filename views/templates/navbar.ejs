@@ -1,0 +1,38 @@
+<header class="header">
+	<h1 class="logo">Nuevo</h1>
+	<nav class="nav">
+		<ul class="nav-list">
+			<li>
+				<a href="/" class="<%= active == 'home' ? 'active' : '' %>">Home</a>
+			</li>
+			<li>
+				<a href="/blog" class="<%= active == 'blog' ? 'active' : '' %>">Blog</a>
+			</li>
+			<li>
+				<a href="/about" class="<%= active == 'about' ? 'active' : '' %>"
+					>About Me</a
+				>
+			</li>
+			<li>
+				<a href="/contact" class="<%= active == 'contact' ? 'active' : '' %>"
+					>Contact</a
+				>
+			</li>
+		</ul>
+	</nav>
+	<div class="hamburger-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="overlay">
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/about">About Me</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
